@@ -7,7 +7,7 @@ FruitsApp is a simple iOS application, it retrieves Fruits from free Local Data 
 
 ## Screenshots
 - OnBoarding
-<img src="/Screenshots/onBoard1.png" width="200" height="400">
+<img src="https://raw.githubusercontent.com/TahaMahmoud/SwiftUIProjects/main/FruitsApp/Screenshots/onBoard1.png" width="200" height="400">
 <img src="/Screenshots/onBoard2.png" width="200" height="400">
 <img src="/Screenshots/onBoard3.png" width="200" height="400">
 
