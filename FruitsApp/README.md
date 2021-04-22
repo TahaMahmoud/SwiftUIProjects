@@ -8,18 +8,18 @@ FruitsApp is a simple iOS application, it retrieves Fruits from free Local Data 
 ## Screenshots
 - OnBoarding
 <img src="https://raw.githubusercontent.com/TahaMahmoud/SwiftUIProjects/main/FruitsApp/Screenshots/onBoard1.png" width="200" height="400">
-<img src="/Screenshots/onBoard2.png" width="200" height="400">
-<img src="/Screenshots/onBoard3.png" width="200" height="400">
+<img src="https://raw.githubusercontent.com/TahaMahmoud/SwiftUIProjects/main/FruitsApp/Screenshots/onBoard2.png" width="200" height="400">
+<img src="https://raw.githubusercontent.com/TahaMahmoud/SwiftUIProjects/main/FruitsApp/Screenshots/onBoard3.png" width="200" height="400">
 
 - Fruits List
-<img src="/Screenshots/List.png" width="200" height="400">
+<img src="https://raw.githubusercontent.com/TahaMahmoud/SwiftUIProjects/main/FruitsApp/Screenshots/List.png" width="200" height="400">
 
 - Fruits List
-<img src="/Screenshots/Details1.png" width="200" height="400">
-<img src="/Screenshots/Details2.png" width="200" height="400">
+<img src="https://raw.githubusercontent.com/TahaMahmoud/SwiftUIProjects/main/FruitsApp/Screenshots/Details1.png" width="200" height="400">
+<img src="https://raw.githubusercontent.com/TahaMahmoud/SwiftUIProjects/main/FruitsApp/Screenshots/Details2.png" width="200" height="400">
 
 - Application Settings
-<img src="/Screenshots/Settings.png" width="200" height="400">
+<img src="https://raw.githubusercontent.com/TahaMahmoud/SwiftUIProjects/main/FruitsApp/Screenshots/Settings.png" width="200" height="400">
 
 ## Authors:
 Created by 
