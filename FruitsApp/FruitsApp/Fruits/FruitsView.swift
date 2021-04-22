@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct FruitsView: View {
     
     // MARK:- Properties
     var fruits: [Fruit] = fruitsData
@@ -28,8 +28,8 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct FruitsView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView(fruits: fruitsData)
+        FruitsView(fruits: fruitsData)
     }
 }

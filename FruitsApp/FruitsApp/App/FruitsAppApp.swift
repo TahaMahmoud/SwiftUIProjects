@@ -17,7 +17,7 @@ struct FruitsAppApp: App {
             if isOnBoard {
                 OnBoardView()
             } else {
-                ContentView()
+                FruitsView()
             }
         }
     }
