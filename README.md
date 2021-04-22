@@ -3,7 +3,7 @@
 SwiftUI Project is a repository for iOS applications developed using SwiftUI Framework.
 
 ## Projects
-- SwiftUI [FruitsApp](https://www.linkedin.com/in/engtahamahmoud)
+- [FruitsApp](https://github.com/TahaMahmoud/SwiftUIProjects/tree/main/FruitsApp)
 
 
 ## Authors:
