@@ -14,11 +14,13 @@ struct FruitsAppApp: App {
     
     var body: some Scene {
         WindowGroup {
+            //OnBoardView()
             if isOnBoard {
                 OnBoardView()
             } else {
                 FruitsView()
             }
+            
         }
     }
 }

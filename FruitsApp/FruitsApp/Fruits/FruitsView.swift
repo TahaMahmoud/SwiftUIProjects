@@ -12,17 +12,31 @@ struct FruitsView: View {
     // MARK:- Properties
     var fruits: [Fruit] = fruitsData
     
+    @State private var isShowingSettings: Bool = false
+    
     // MARK:- Body
     var body: some View {
         NavigationView {
             List {
                 ForEach(fruits.shuffled()) { fruit in
-                    FruitRowView(fruit: fruit)
-                        .padding(.vertical, 5)
+                    NavigationLink(destination: FruitDetailsView(fruit: fruit)) {
+                        FruitRowView(fruit: fruit)
+                            .padding(.vertical, 5)
+                    }
                 }
             }
             .navigationTitle("Fruits")
-            
+            .navigationBarItems(
+            trailing:
+                Button(action: {
+                    isShowingSettings = true
+                }){
+                    Image(systemName: "slider.horizontal.3")
+                }
+                .sheet(isPresented: $isShowingSettings) {
+                    SettingsView()
+                }
+            )
         }
         
     }
