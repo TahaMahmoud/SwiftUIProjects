@@ -1,6 +1,6 @@
 # FruitsApp
 
-FruitsApp is a simple iOS application, it retrieves Fruits from free Local Data and display them for the user, and allow the user to view fruit details.
+FruitsApp is a simple iOS application, it retrieves Fruits from Local Data and display them for the user, and allow the user to view fruit details.
 
 ## Used In The APP
 - SwiftUI
