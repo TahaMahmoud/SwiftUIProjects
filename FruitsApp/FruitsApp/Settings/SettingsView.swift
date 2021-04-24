@@ -11,6 +11,8 @@ struct SettingsView: View {
     
     @Environment(\.presentationMode) var presentationMode
     
+    @AppStorage("isOnBoard") private var isOnBoarding: Bool = false
+    
     var body: some View {
         NavigationView() {
             ScrollView(.vertical, showsIndicators: false) {
@@ -35,7 +37,38 @@ struct SettingsView: View {
                         }
                     } // GroupBox
                     
-                    // *---------------------------------*
+                    // Restart Application
+                    
+                    GroupBox(
+                        label: SettingsLabelView(labelText: "Customization", labelImage: "paintbrush")
+                    ) {
+                        Divider().padding(.vertical, 4)
+                        
+                        Text("If you wish, You can restart the application by toggle the switch in this box, That way it starts the OnBoard process and you will see the welcome screen again.")
+                            .padding(.vertical, 8)
+                            .font(.footnote)
+                            .frame(minHeight: 60)
+                            .layoutPriority(1)
+                            .multilineTextAlignment(.leading)
+                        
+                        
+                        Toggle(isOn: $isOnBoarding) {
+                            if isOnBoarding {
+                                Text("RESTARTED")
+                                    .fontWeight(.bold)
+                                    .foregroundColor(.green)
+                            } else {
+                                Text("RESTART")
+                                    .fontWeight(.bold)
+                                    .foregroundColor(.secondary)
+                            }
+                        }
+                        .padding()
+                        .background(
+                            Color(UIColor.tertiarySystemBackground)
+                                .clipShape(RoundedRectangle(cornerRadius: 8, style: .continuous))
+                        )
+                    }
                     
                     // About Developer Section
                     GroupBox(

@@ -38,7 +38,7 @@ struct FruitsView: View {
                 }
             )
         }
-        
+        .navigationViewStyle(StackNavigationViewStyle())
     }
 }
 
