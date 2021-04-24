@@ -4,6 +4,7 @@
 
 ## Projects
 - [FruitsApp](https://github.com/TahaMahmoud/SwiftUIProjects/tree/main/FruitsApp)
+- [ZooPedia](https://github.com/TahaMahmoud/SwiftUIProjects/tree/main/ZooPedia)
 
 
 ## Authors:
