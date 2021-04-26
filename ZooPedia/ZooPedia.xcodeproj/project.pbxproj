@@ -21,6 +21,7 @@
 		04B5EA4426369FF900739413 /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B5EA4326369FF900739413 /* CodableBundleExtension.swift */; };
 		04B5EA482636A37E00739413 /* AnimalListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B5EA472636A37E00739413 /* AnimalListItemView.swift */; };
 		04B5EA4B2636A5AD00739413 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B5EA4A2636A5AD00739413 /* Animal.swift */; };
+		04B8392D2636E0A9000481F8 /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B8392A2636E067000481F8 /* MotionAnimationView.swift */; };
 		04C802702636AA910088C7A1 /* AnimalDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C8026F2636AA910088C7A1 /* AnimalDetailsView.swift */; };
 		04C802742636ADB80088C7A1 /* HeadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C802732636ADB80088C7A1 /* HeadingView.swift */; };
 		04C802772636B1010088C7A1 /* InsetGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C802762636B1010088C7A1 /* InsetGalleryView.swift */; };
@@ -432,6 +433,7 @@
 				043681072636BF4300869100 /* Video.swift in Sources */,
 				04C802702636AA910088C7A1 /* AnimalDetailsView.swift in Sources */,
 				0F2FB0F526347D710074E1C7 /* GalleryView.swift in Sources */,
+				04B8392D2636E0A9000481F8 /* MotionAnimationView.swift in Sources */,
 				04B5EA4426369FF900739413 /* CodableBundleExtension.swift in Sources */,
 				04C802742636ADB80088C7A1 /* HeadingView.swift in Sources */,
 			);
