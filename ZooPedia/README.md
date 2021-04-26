@@ -36,7 +36,7 @@ The application have a gallery for the animals
 <img src="https://raw.githubusercontent.com/TahaMahmoud/SwiftUIProjects/main/ZooPedia/Screenshots/MotionAnimation.png" width="200" height="400">
 
 - Gallery
-* Under Development * 
+*Under Development* 
 
 
 ## Authors:
