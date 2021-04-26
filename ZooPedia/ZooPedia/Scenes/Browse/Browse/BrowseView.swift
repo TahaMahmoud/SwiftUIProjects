@@ -20,7 +20,10 @@ struct BrowseView: View {
                     .padding(.bottom, 20)
                 
                 ForEach(animals) { animal in
-                    AnimalListItemView(animal: animal)
+                    NavigationLink( destination: AnimalDetailsView(animal: animal)){
+                            AnimalListItemView(animal: animal)
+                        }
+                    
                 }
             }
             .navigationBarTitle("ZooPedia", displayMode: .large)
