@@ -21,6 +21,7 @@
 		04B5EA4426369FF900739413 /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B5EA4326369FF900739413 /* CodableBundleExtension.swift */; };
 		04B5EA482636A37E00739413 /* AnimalListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B5EA472636A37E00739413 /* AnimalListItemView.swift */; };
 		04B5EA4B2636A5AD00739413 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B5EA4A2636A5AD00739413 /* Animal.swift */; };
+		04B839262636DF04000481F8 /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B839252636DF04000481F8 /* MotionAnimationView.swift */; };
 		04C802702636AA910088C7A1 /* AnimalDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C8026F2636AA910088C7A1 /* AnimalDetailsView.swift */; };
 		04C802742636ADB80088C7A1 /* HeadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C802732636ADB80088C7A1 /* HeadingView.swift */; };
 		04C802772636B1010088C7A1 /* InsetGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C802762636B1010088C7A1 /* InsetGalleryView.swift */; };
@@ -63,6 +64,7 @@
 		04B5EA4326369FF900739413 /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
 		04B5EA472636A37E00739413 /* AnimalListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListItemView.swift; sourceTree = "<group>"; };
 		04B5EA4A2636A5AD00739413 /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
+		04B839252636DF04000481F8 /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MotionAnimationView.swift; path = ../../../../../../../Documents/MotionAnimationView.swift; sourceTree = "<group>"; };
 		04C8026F2636AA910088C7A1 /* AnimalDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailsView.swift; sourceTree = "<group>"; };
 		04C802732636ADB80088C7A1 /* HeadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadingView.swift; sourceTree = "<group>"; };
 		04C802762636B1010088C7A1 /* InsetGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetGalleryView.swift; sourceTree = "<group>"; };
@@ -154,6 +156,15 @@
 				04B5EA4326369FF900739413 /* CodableBundleExtension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		04B839202636DEDE000481F8 /* GeneralViews */ = {
+			isa = PBXGroup;
+			children = (
+				04B839252636DF04000481F8 /* MotionAnimationView.swift */,
+			);
+			name = GeneralViews;
+			path = ../../FruitsApp/FruitsApp/GeneralViews;
 			sourceTree = "<group>";
 		};
 		04C8026C2636AA5C0088C7A1 /* Browse */ = {
@@ -298,6 +309,7 @@
 		0FB15C6A26345440000901FE /* ZooPedia */ = {
 			isa = PBXGroup;
 			children = (
+				04B839202636DEDE000481F8 /* GeneralViews */,
 				043681142636C9FE00869100 /* Helper */,
 				04B5EA4226369FDD00739413 /* Extensions */,
 				0F2FB0E726347CC00074E1C7 /* Scenes */,
@@ -424,6 +436,7 @@
 				0F2FB0F526347D710074E1C7 /* GalleryView.swift in Sources */,
 				04B5EA4426369FF900739413 /* CodableBundleExtension.swift in Sources */,
 				04C802742636ADB80088C7A1 /* HeadingView.swift in Sources */,
+				04B839262636DF04000481F8 /* MotionAnimationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
