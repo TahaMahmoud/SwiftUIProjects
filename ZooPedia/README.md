@@ -10,13 +10,19 @@ The application have a gallery for the animals
 - AVKit
 - JSON Decoder From Internal Files
 - Supporting Dark Mode Only
+- Dynamic Grid Layout
 
 ## Screenshots
 - Launch Screen
 <img src="https://raw.githubusercontent.com/TahaMahmoud/SwiftUIProjects/main/ZooPedia/Screenshots/Launch.png" width="200" height="400">
 
-- Home [Animal List]
-<img src="https://raw.githubusercontent.com/TahaMahmoud/SwiftUIProjects/main/ZooPedia/Screenshots/Home.png" width="200" height="400">
+- Home [Animals List]
+<img src="https://raw.githubusercontent.com/TahaMahmoud/SwiftUIProjects/main/ZooPedia/Screenshots/HomeList.png" width="200" height="400">
+
+- Home [Animals Grid]
+<img src="https://raw.githubusercontent.com/TahaMahmoud/SwiftUIProjects/main/ZooPedia/Screenshots/HomeGrid1.png" width="200" height="400">
+<img src="https://raw.githubusercontent.com/TahaMahmoud/SwiftUIProjects/main/ZooPedia/Screenshots/HomeGrid2.png" width="200" height="400">
+<img src="https://raw.githubusercontent.com/TahaMahmoud/SwiftUIProjects/main/ZooPedia/Screenshots/HomeGrid3.png" width="200" height="400">
 
 - Animal Details
 <img src="https://raw.githubusercontent.com/TahaMahmoud/SwiftUIProjects/main/ZooPedia/Screenshots/Details1.png" width="200" height="400">
@@ -35,9 +41,9 @@ The application have a gallery for the animals
 - MotionAnimation View
 <img src="https://raw.githubusercontent.com/TahaMahmoud/SwiftUIProjects/main/ZooPedia/Screenshots/MotionAnimation.png" width="200" height="400">
 
-- Gallery
-[Under Development]
-<img src="https://raw.githubusercontent.com/TahaMahmoud/SwiftUIProjects/main/ZooPedia/Screenshots/Gallery.png" width="200" height="400">
+- Gallery [Dynamic Grid Layout]
+<img src="https://raw.githubusercontent.com/TahaMahmoud/SwiftUIProjects/main/ZooPedia/Screenshots/Gallery1.png" width="200" height="400">
+<img src="https://raw.githubusercontent.com/TahaMahmoud/SwiftUIProjects/main/ZooPedia/Screenshots/Gallery2.png" width="200" height="400">
 
 
 ## Author:
