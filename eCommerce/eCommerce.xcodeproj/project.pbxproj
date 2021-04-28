@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		046274CE263941FD00C0B919 /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046274CD263941FD00C0B919 /* NavigationBarView.swift */; };
 		046274D22639438300C0B919 /* NavigationBarLogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046274D12639438300C0B919 /* NavigationBarLogoView.swift */; };
+		046274D52639479C00C0B919 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046274D42639479C00C0B919 /* Player.swift */; };
+		046274D8263947E300C0B919 /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046274D7263947E300C0B919 /* CodableBundleExtension.swift */; };
+		046274DB2639484100C0B919 /* FeaturedItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046274DA2639484100C0B919 /* FeaturedItemView.swift */; };
+		046274DE263948CC00C0B919 /* FeaturedTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046274DD263948CC00C0B919 /* FeaturedTabView.swift */; };
 		04AE9EEF2638289C00C4B641 /* eCommerceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AE9EEE2638289C00C4B641 /* eCommerceApp.swift */; };
 		04AE9EF12638289C00C4B641 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AE9EF02638289C00C4B641 /* HomeView.swift */; };
 		04AE9EF32638289E00C4B641 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04AE9EF22638289E00C4B641 /* Assets.xcassets */; };
@@ -24,6 +28,10 @@
 /* Begin PBXFileReference section */
 		046274CD263941FD00C0B919 /* NavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
 		046274D12639438300C0B919 /* NavigationBarLogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarLogoView.swift; sourceTree = "<group>"; };
+		046274D42639479C00C0B919 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		046274D7263947E300C0B919 /* CodableBundleExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CodableBundleExtension.swift; path = ../../../ZooPedia/ZooPedia/Extensions/CodableBundleExtension.swift; sourceTree = "<group>"; };
+		046274DA2639484100C0B919 /* FeaturedItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedItemView.swift; sourceTree = "<group>"; };
+		046274DD263948CC00C0B919 /* FeaturedTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedTabView.swift; sourceTree = "<group>"; };
 		04AE9EEB2638289C00C4B641 /* eCommerce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eCommerce.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04AE9EEE2638289C00C4B641 /* eCommerceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eCommerceApp.swift; sourceTree = "<group>"; };
 		04AE9EF02638289C00C4B641 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -137,6 +145,7 @@
 		04AE9F0C26382AC100C4B641 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				046274D7263947E300C0B919 /* CodableBundleExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -161,6 +170,9 @@
 			isa = PBXGroup;
 			children = (
 				04AE9EF02638289C00C4B641 /* HomeView.swift */,
+				046274D42639479C00C0B919 /* Player.swift */,
+				046274DA2639484100C0B919 /* FeaturedItemView.swift */,
+				046274DD263948CC00C0B919 /* FeaturedTabView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -238,11 +250,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				046274D8263947E300C0B919 /* CodableBundleExtension.swift in Sources */,
 				04AE9EF12638289C00C4B641 /* HomeView.swift in Sources */,
 				046274D22639438300C0B919 /* NavigationBarLogoView.swift in Sources */,
 				04AE9F1426382C2100C4B641 /* FooterView.swift in Sources */,
+				046274DB2639484100C0B919 /* FeaturedItemView.swift in Sources */,
 				04AE9EEF2638289C00C4B641 /* eCommerceApp.swift in Sources */,
+				046274D52639479C00C0B919 /* Player.swift in Sources */,
 				04AE9F0F26382AFE00C4B641 /* Constants.swift in Sources */,
+				046274DE263948CC00C0B919 /* FeaturedTabView.swift in Sources */,
 				046274CE263941FD00C0B919 /* NavigationBarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
