@@ -6,6 +6,7 @@
 - [FruitsApp](https://github.com/TahaMahmoud/SwiftUIProjects/tree/main/FruitsApp)
 - [ZooPedia](https://github.com/TahaMahmoud/SwiftUIProjects/tree/main/ZooPedia)
 - [eCommerce](https://github.com/TahaMahmoud/SwiftUIProjects/tree/main/eCommerce)
+- [Taskaty](https://github.com/TahaMahmoud/SwiftUIProjects/tree/main/Taskaty)
 
 
 ## Authors:
