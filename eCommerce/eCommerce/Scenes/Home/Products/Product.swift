@@ -21,11 +21,11 @@ struct Product: Codable, Identifiable {
     }
     
     var green: Double {
-        return color[0]
+        return color[1]
     }
     
     var blue: Double {
-        return color[0]
+        return color[2]
     }
 
     var formattedPrice: String {

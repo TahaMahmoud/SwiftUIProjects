@@ -20,6 +20,9 @@
 		046274F32639533200C0B919 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046274F22639533200C0B919 /* TitleView.swift */; };
 		046274F72639541100C0B919 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046274F62639541100C0B919 /* Product.swift */; };
 		046274FA263954C600C0B919 /* ProductItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046274F9263954C600C0B919 /* ProductItemView.swift */; };
+		046274FE2639584200C0B919 /* Brand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046274FD2639584200C0B919 /* Brand.swift */; };
+		046275032639588000C0B919 /* BrandItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046275022639588000C0B919 /* BrandItemView.swift */; };
+		046275062639594B00C0B919 /* BrandsGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046275052639594B00C0B919 /* BrandsGridView.swift */; };
 		04AE9EEF2638289C00C4B641 /* eCommerceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AE9EEE2638289C00C4B641 /* eCommerceApp.swift */; };
 		04AE9EF12638289C00C4B641 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AE9EF02638289C00C4B641 /* HomeView.swift */; };
 		04AE9EF32638289E00C4B641 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04AE9EF22638289E00C4B641 /* Assets.xcassets */; };
@@ -46,6 +49,9 @@
 		046274F22639533200C0B919 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
 		046274F62639541100C0B919 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		046274F9263954C600C0B919 /* ProductItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductItemView.swift; sourceTree = "<group>"; };
+		046274FD2639584200C0B919 /* Brand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brand.swift; sourceTree = "<group>"; };
+		046275022639588000C0B919 /* BrandItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandItemView.swift; sourceTree = "<group>"; };
+		046275052639594B00C0B919 /* BrandsGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandsGridView.swift; sourceTree = "<group>"; };
 		04AE9EEB2638289C00C4B641 /* eCommerce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eCommerce.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04AE9EEE2638289C00C4B641 /* eCommerceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eCommerceApp.swift; sourceTree = "<group>"; };
 		04AE9EF02638289C00C4B641 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -108,6 +114,16 @@
 				046274F9263954C600C0B919 /* ProductItemView.swift */,
 			);
 			path = Products;
+			sourceTree = "<group>";
+		};
+		046274FC2639583100C0B919 /* Brands */ = {
+			isa = PBXGroup;
+			children = (
+				046274FD2639584200C0B919 /* Brand.swift */,
+				046275022639588000C0B919 /* BrandItemView.swift */,
+				046275052639594B00C0B919 /* BrandsGridView.swift */,
+			);
+			path = Brands;
 			sourceTree = "<group>";
 		};
 		04AE9EE22638289C00C4B641 = {
@@ -217,6 +233,7 @@
 				046274E026394C7800C0B919 /* FeaturedTabView */,
 				046274E126394C8500C0B919 /* Categories */,
 				046274F12639530500C0B919 /* Products */,
+				046274FC2639583100C0B919 /* Brands */,
 				046274F22639533200C0B919 /* TitleView.swift */,
 			);
 			path = Home;
@@ -296,6 +313,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				046274D8263947E300C0B919 /* CodableBundleExtension.swift in Sources */,
+				046274FE2639584200C0B919 /* Brand.swift in Sources */,
 				04AE9EF12638289C00C4B641 /* HomeView.swift in Sources */,
 				046274D22639438300C0B919 /* NavigationBarLogoView.swift in Sources */,
 				04AE9F1426382C2100C4B641 /* FooterView.swift in Sources */,
@@ -304,8 +322,10 @@
 				046274DB2639484100C0B919 /* FeaturedItemView.swift in Sources */,
 				04AE9EEF2638289C00C4B641 /* eCommerceApp.swift in Sources */,
 				046274D52639479C00C0B919 /* Player.swift in Sources */,
+				046275062639594B00C0B919 /* BrandsGridView.swift in Sources */,
 				04AE9F0F26382AFE00C4B641 /* Constants.swift in Sources */,
 				046274F72639541100C0B919 /* Product.swift in Sources */,
+				046275032639588000C0B919 /* BrandItemView.swift in Sources */,
 				046274DE263948CC00C0B919 /* FeaturedTabView.swift in Sources */,
 				046274ED263950A800C0B919 /* SectionView.swift in Sources */,
 				046274E726394DF800C0B919 /* CategoryItemView.swift in Sources */,
