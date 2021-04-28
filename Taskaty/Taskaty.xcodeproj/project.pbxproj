@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04B0CD422639820D00CCC895 /* TaskatyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B0CD412639820D00CCC895 /* TaskatyApp.swift */; };
+		04B0CD442639820D00CCC895 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B0CD432639820D00CCC895 /* HomeView.swift */; };
+		04B0CD462639820E00CCC895 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04B0CD452639820E00CCC895 /* Assets.xcassets */; };
+		04B0CD492639820E00CCC895 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04B0CD482639820E00CCC895 /* Preview Assets.xcassets */; };
+		04B0CD4B2639820E00CCC895 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B0CD4A2639820E00CCC895 /* Persistence.swift */; };
+		04B0CD4E2639820E00CCC895 /* Taskaty.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04B0CD4C2639820E00CCC895 /* Taskaty.xcdatamodeld */; };
+		04B0CD5A2639837000CCC895 /* sound-rise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04B0CD572639837000CCC895 /* sound-rise.mp3 */; };
+		04B0CD5B2639837000CCC895 /* sound-ding.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04B0CD582639837000CCC895 /* sound-ding.mp3 */; };
+		04B0CD5C2639837000CCC895 /* sound-tap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04B0CD592639837000CCC895 /* sound-tap.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04B0CD3E2639820D00CCC895 /* Taskaty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Taskaty.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04B0CD412639820D00CCC895 /* TaskatyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskatyApp.swift; sourceTree = "<group>"; };
+		04B0CD432639820D00CCC895 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		04B0CD452639820E00CCC895 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04B0CD482639820E00CCC895 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		04B0CD4A2639820E00CCC895 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		04B0CD4D2639820E00CCC895 /* Taskaty.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Taskaty.xcdatamodel; sourceTree = "<group>"; };
+		04B0CD4F2639820E00CCC895 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04B0CD572639837000CCC895 /* sound-rise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-rise.mp3"; sourceTree = "<group>"; };
+		04B0CD582639837000CCC895 /* sound-ding.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-ding.mp3"; sourceTree = "<group>"; };
+		04B0CD592639837000CCC895 /* sound-tap.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-tap.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04B0CD3B2639820D00CCC895 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04B0CD352639820D00CCC895 = {
+			isa = PBXGroup;
+			children = (
+				04B0CD402639820D00CCC895 /* Taskaty */,
+				04B0CD3F2639820D00CCC895 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04B0CD3F2639820D00CCC895 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04B0CD3E2639820D00CCC895 /* Taskaty.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04B0CD402639820D00CCC895 /* Taskaty */ = {
+			isa = PBXGroup;
+			children = (
+				04B0CD652639844C00CCC895 /* Scenes */,
+				04B0CD642639844100CCC895 /* Resources */,
+				04B0CD632639842500CCC895 /* Views */,
+				04B0CD622639841800CCC895 /* Extensions */,
+				04B0CD612639840B00CCC895 /* DataManager */,
+				04B0CD602639840600CCC895 /* Styles */,
+				04B0CD5F2639839A00CCC895 /* Utilities */,
+				04B0CD5E2639839200CCC895 /* App */,
+				04B0CD562639837000CCC895 /* Sound */,
+				04B0CD4F2639820E00CCC895 /* Info.plist */,
+				04B0CD472639820E00CCC895 /* Preview Content */,
+			);
+			path = Taskaty;
+			sourceTree = "<group>";
+		};
+		04B0CD472639820E00CCC895 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				04B0CD482639820E00CCC895 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		04B0CD562639837000CCC895 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				04B0CD572639837000CCC895 /* sound-rise.mp3 */,
+				04B0CD582639837000CCC895 /* sound-ding.mp3 */,
+				04B0CD592639837000CCC895 /* sound-tap.mp3 */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+		04B0CD5E2639839200CCC895 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				04B0CD412639820D00CCC895 /* TaskatyApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		04B0CD5F2639839A00CCC895 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		04B0CD602639840600CCC895 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		04B0CD612639840B00CCC895 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				04B0CD4A2639820E00CCC895 /* Persistence.swift */,
+				04B0CD4C2639820E00CCC895 /* Taskaty.xcdatamodeld */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		04B0CD622639841800CCC895 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		04B0CD632639842500CCC895 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		04B0CD642639844100CCC895 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				04B0CD452639820E00CCC895 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		04B0CD652639844C00CCC895 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				04B0CD662639845200CCC895 /* Home */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		04B0CD662639845200CCC895 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				04B0CD432639820D00CCC895 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04B0CD3D2639820D00CCC895 /* Taskaty */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04B0CD522639820E00CCC895 /* Build configuration list for PBXNativeTarget "Taskaty" */;
+			buildPhases = (
+				04B0CD3A2639820D00CCC895 /* Sources */,
+				04B0CD3B2639820D00CCC895 /* Frameworks */,
+				04B0CD3C2639820D00CCC895 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Taskaty;
+			productName = Taskaty;
+			productReference = 04B0CD3E2639820D00CCC895 /* Taskaty.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04B0CD362639820D00CCC895 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					04B0CD3D2639820D00CCC895 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 04B0CD392639820D00CCC895 /* Build configuration list for PBXProject "Taskaty" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04B0CD352639820D00CCC895;
+			productRefGroup = 04B0CD3F2639820D00CCC895 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04B0CD3D2639820D00CCC895 /* Taskaty */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04B0CD3C2639820D00CCC895 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B0CD5B2639837000CCC895 /* sound-ding.mp3 in Resources */,
+				04B0CD5A2639837000CCC895 /* sound-rise.mp3 in Resources */,
+				04B0CD492639820E00CCC895 /* Preview Assets.xcassets in Resources */,
+				04B0CD5C2639837000CCC895 /* sound-tap.mp3 in Resources */,
+				04B0CD462639820E00CCC895 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04B0CD3A2639820D00CCC895 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B0CD4B2639820E00CCC895 /* Persistence.swift in Sources */,
+				04B0CD4E2639820E00CCC895 /* Taskaty.xcdatamodeld in Sources */,
+				04B0CD442639820D00CCC895 /* HomeView.swift in Sources */,
+				04B0CD422639820D00CCC895 /* TaskatyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		04B0CD502639820E00CCC895 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04B0CD512639820E00CCC895 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04B0CD532639820E00CCC895 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Taskaty/Preview Content\"";
+				DEVELOPMENT_TEAM = GLBMX2MFLL;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Taskaty/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = eg.edu.must.aitc.Taskaty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04B0CD542639820E00CCC895 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Taskaty/Preview Content\"";
+				DEVELOPMENT_TEAM = GLBMX2MFLL;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Taskaty/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = eg.edu.must.aitc.Taskaty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04B0CD392639820D00CCC895 /* Build configuration list for PBXProject "Taskaty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B0CD502639820E00CCC895 /* Debug */,
+				04B0CD512639820E00CCC895 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04B0CD522639820E00CCC895 /* Build configuration list for PBXNativeTarget "Taskaty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B0CD532639820E00CCC895 /* Debug */,
+				04B0CD542639820E00CCC895 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		04B0CD4C2639820E00CCC895 /* Taskaty.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				04B0CD4D2639820E00CCC895 /* Taskaty.xcdatamodel */,
+			);
+			currentVersion = 04B0CD4D2639820E00CCC895 /* Taskaty.xcdatamodel */;
+			path = Taskaty.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 04B0CD362639820D00CCC895 /* Project object */;
+}

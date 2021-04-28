@@ -33,6 +33,8 @@
 		<string>ColorBackground</string>
 		<key>UIImageName</key>
 		<string>logo-lineal</string>
+		<key>UIImageRespectsSafeAreaInsets</key>
+		<true/>
 	</dict>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
