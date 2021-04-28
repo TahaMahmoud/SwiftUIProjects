@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		046274CE263941FD00C0B919 /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046274CD263941FD00C0B919 /* NavigationBarView.swift */; };
+		046274D22639438300C0B919 /* NavigationBarLogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046274D12639438300C0B919 /* NavigationBarLogoView.swift */; };
 		04AE9EEF2638289C00C4B641 /* eCommerceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AE9EEE2638289C00C4B641 /* eCommerceApp.swift */; };
 		04AE9EF12638289C00C4B641 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AE9EF02638289C00C4B641 /* HomeView.swift */; };
 		04AE9EF32638289E00C4B641 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04AE9EF22638289E00C4B641 /* Assets.xcassets */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		046274CD263941FD00C0B919 /* NavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
+		046274D12639438300C0B919 /* NavigationBarLogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarLogoView.swift; sourceTree = "<group>"; };
 		04AE9EEB2638289C00C4B641 /* eCommerce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eCommerce.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04AE9EEE2638289C00C4B641 /* eCommerceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eCommerceApp.swift; sourceTree = "<group>"; };
 		04AE9EF02638289C00C4B641 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -45,6 +49,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		046274CC263941DB00C0B919 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				046274CD263941FD00C0B919 /* NavigationBarView.swift */,
+				046274D12639438300C0B919 /* NavigationBarLogoView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		04AE9EE22638289C00C4B641 = {
 			isa = PBXGroup;
 			children = (
@@ -64,6 +77,7 @@
 		04AE9EED2638289C00C4B641 /* eCommerce */ = {
 			isa = PBXGroup;
 			children = (
+				046274CC263941DB00C0B919 /* Views */,
 				04AE9F0D26382ACC00C4B641 /* App */,
 				04AE9F0C26382AC100C4B641 /* Extensions */,
 				04AE9F0B26382A9B00C4B641 /* Utilities */,
@@ -225,9 +239,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				04AE9EF12638289C00C4B641 /* HomeView.swift in Sources */,
+				046274D22639438300C0B919 /* NavigationBarLogoView.swift in Sources */,
 				04AE9F1426382C2100C4B641 /* FooterView.swift in Sources */,
 				04AE9EEF2638289C00C4B641 /* eCommerceApp.swift in Sources */,
 				04AE9F0F26382AFE00C4B641 /* Constants.swift in Sources */,
+				046274CE263941FD00C0B919 /* NavigationBarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
